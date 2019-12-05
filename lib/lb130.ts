@@ -31,7 +31,8 @@ export default class LB130 extends lb100 {
     onOff: number,
     brightness?: number,
     hue?: number,
-    saturation?: number
+    saturation?: number,
+    transition_period?: number
   ) {
     // on_off: 1 on, 0 off
     // brightness: 0-100
@@ -44,6 +45,7 @@ export default class LB130 extends lb100 {
           brightness,
           hue,
           saturation,
+          transition_period,
           on_off: onOff
         }
       }
