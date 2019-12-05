@@ -45,8 +45,8 @@ export default class LB130 extends lb100 {
           brightness,
           hue,
           saturation,
-          transition_period: period,
-          on_off: onOff
+          on_off: onOff,
+          transition_period: period
         }
       }
     });
