@@ -68,7 +68,8 @@ export default class LB100 extends device {
     onOff: number,
     brightness?: number,
     unusued?: any,
-    unusued2?: any
+    unusued2?: any,
+    unusued3?: any
   ) {
     // on_off: 1 on, 0 off
     // brightness: 0-100
